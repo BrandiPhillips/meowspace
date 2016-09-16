@@ -1,0 +1,167 @@
+body {
+  font-family: 'Antic', sans-serif;
+  font-size: 14px;
+  color: #423D37;
+  background-color: #F9DF93;
+  margin-top: 0;
+}
+
+/*********header**********/
+
+.main-header {
+  background-color: #9CB575;
+  /*clear: auto; I read that if I clear auto on the parent element it would make room for the child element/s*/
+  height: 120px;
+  margin: 0;
+  padding: 0;
+}
+
+.title a:link {
+  color: #278686;
+  font-size: 3.5rem;
+  text-decoration: none;
+  display: inline-block;
+  float: left;
+  margin-top: 2%;
+  margin-left: 1%;
+ }
+
+ .title a:visited {
+   color: #278686;
+   font-size: 3.5rem;
+   text-decoration: none;
+   display: inline-block;
+   float: left;
+   margin-top: 2%;
+   margin-left: 1%;
+  }
+
+.nav-links li {
+   font-size: 1.5rem;
+   display: inline-block;
+   float: right;
+   margin-right: 2%;
+   margin-top: 6%;
+ }
+
+ .nav-links li a:link {
+   color: #F9DF93;
+   list-style-type: none;
+   text-decoration: none;
+ }
+/******main body content******/
+div {
+  background-color: #D7C7B6;
+  width: 70%;
+  float:left;
+  display: inline-block;
+}
+
+.content-header h1 {
+  font-size: 2rem;
+}
+
+article div {
+  background-color: #E2D1BF;
+  width: 100%;
+}
+
+article div h2 {
+  font-size: 1.65rem;
+}
+
+article div h3 {
+  display: inline-block;
+
+}
+article div h3 a {
+  text-decoration: none;
+}
+
+article div p {
+  text-align:center;
+}
+article div p a {
+  text-decoration: none;
+
+}
+/*******right side section*******/
+ aside {
+   float:right;
+   width: 29%;
+   height: 550px;
+   background: rgba(165,227,223,1);
+background: -moz-linear-gradient(top, rgba(165,227,223,1) 0%, rgba(165,227,223,1) 31%, rgba(55,116,116,1) 100%);
+background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(165,227,223,1)), color-stop(31%, rgba(165,227,223,1)), color-stop(100%, rgba(55,116,116,1)));
+background: -webkit-linear-gradient(top, rgba(165,227,223,1) 0%, rgba(165,227,223,1) 31%, rgba(55,116,116,1) 100%);
+background: -o-linear-gradient(top, rgba(165,227,223,1) 0%, rgba(165,227,223,1) 31%, rgba(55,116,116,1) 100%);
+background: -ms-linear-gradient(top, rgba(165,227,223,1) 0%, rgba(165,227,223,1) 31%, rgba(55,116,116,1) 100%);
+background: linear-gradient(to bottom, rgba(165,227,223,1) 0%, rgba(165,227,223,1) 31%, rgba(55,116,116,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a5e3df', endColorstr='#377474', GradientType=0 );
+ }
+
+ aside div {
+   background-color: #278686;
+   width: 100%;
+   color: #F9DF93;
+   text-align: center;
+   font-size: 1rem;
+ }
+
+.top-cat {
+  clear:both;
+  height: 170px;
+}
+
+ .top-cat img {
+   display: inline-block;
+   float:left;
+   border-radius: 50%;
+   margin: 5%;
+ }
+
+.top-cat h3 {
+  display: inline-block;
+  margin-top: 30px;
+ }
+
+.top-cat p {
+   margin: -10px 12px 0 0;
+ }
+
+/******************************/
+ footer {
+   color: #377474;
+   clear:both;
+   background-color: #C1D3A6;
+ }
+
+ footer * {
+   display: inline-block;
+ }
+
+ footer h4 {
+   font-size: 1.5rem;
+   width: 10%;
+ }
+
+ footer p {
+   font-size: .75rem;
+   width: 75%;
+   border: 1px solid black;
+   align: bottom;
+ }
+
+ footer nav {
+   float: right;
+   margin-right: 15px;
+   border: 1px solid black;
+ }
+
+footer nav li a:link {
+  color: #377474;
+  width: 50px;
+  list-style-type: none;
+  text-decoration: none;
+
+}
