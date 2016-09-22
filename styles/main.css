@@ -3,7 +3,6 @@ body {
   font-size: 14px;
   color: #423D37;
   background-color: #FEEFC7;
-  margin-top: 0;
 }
 
 /*********header**********/
@@ -11,36 +10,24 @@ body {
 .main-header {
   background-color: #B6CD92;
   height: 120px;
-  margin: 0;
-  padding: 0;
 }
 
 .title a:link {
   color: #278686;
   font-size: 3.5rem;
   text-decoration: none;
-  display: inline-block;
   float: left;
-  margin-top: 2%;
-  margin-left: 1%;
+  margin: 20px o o 20px;
  }
 
  .title a:visited {
    color: #278686;
-   font-size: 3.5rem;
    text-decoration: none;
-   display: inline-block;
-   float: left;
-   margin-top: 2%;
-   margin-left: 1%;
   }
 
 .nav-links li {
    font-size: 1.5rem;
-   display: inline-block;
-   float: right;
-   margin-right: 2%;
-   margin-top: 6%;
+   display: inline;
  }
 
  .nav-links li a:link {
